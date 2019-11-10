@@ -14,3 +14,9 @@ var d = 3 + 4 * 5;
 
 console.log(d);
 // 23 because multiplication takes precedence over addition
+
+var e = (3 + 4) * 5;
+
+console.log(e);
+// now 35
+// parenthesis gives precedence
